@@ -118,7 +118,7 @@ export default function Home() {
                 <div className={styles.lawyerProfile}>
                   <div className={styles.lawyerPhoto}><Image src={'/lawyer3.jpeg'} alt="Juliana Martiniano" width={173} height={173} style={{objectFit:'cover'}} /></div>
                   <h3>Juliana Martiniano</h3>
-                  <p><span className={styles.bold}>Advogada</span>. Militante na Área Jurídica desde 2007. Formado em direito pela Universidade Municipal de São Caetano do Sul</p>
+                  <p><span className={styles.bold}>Advogada</span>. Militante na Área Jurídica desde 2011. Formado em direito pela Universidade Municipal de São Caetano do Sul</p>
                 </div>
               </div>
             </div>

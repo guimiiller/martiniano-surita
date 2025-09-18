@@ -16,7 +16,7 @@ const clients: Clients[] = [
     name: 'Mariana',
     profession: 'Empresária do setor imobiliário',
     message:
-      'O time da M&S foi essencial para resolver uma questão complexa envolvendo um contrato de compra e venda. Sempre atenciosos, me passaram muita segurança e clareza em cada etapa do processo.',
+      'O time da Martiniano, Surita & Advogados foi essencial para resolver uma questão complexa envolvendo um contrato de compra e venda. Sempre atenciosos, me passaram muita segurança e clareza em cada etapa do processo.',
     image: '/testimony1.jpg',
   },
   {
@@ -30,7 +30,7 @@ const clients: Clients[] = [
     name: 'Fernanda',
     profession: 'Professora Universitária',
     message:
-      'Eu tinha muitas dúvidas jurídicas no âmbito civil, principalmente em relação a um inventário. A equipe da M&S foi extremamente profissional e acolhedora, me ajudando a resolver tudo de forma rápida e tranquila.',
+      'Eu tinha muitas dúvidas jurídicas no âmbito civil, principalmente em relação a um inventário. A equipe da Martiniano, Surita & Advogados foi extremamente profissional e acolhedora, me ajudando a resolver tudo de forma rápida e tranquila.',
     image: '/testimony3.jpg',
   },
 ];

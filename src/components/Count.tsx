@@ -20,7 +20,7 @@ export function Count() {
                 </div>
 
                 <div className={styles.countItem} ref={ref2}>
-                    {inView2 && <CountUp end={8} duration={2} className={styles.countNumber} />}
+                    {inView2 && <CountUp end={20} duration={2} suffix=" +"  className={styles.countNumber} />}
                     <p className={styles.countText}>Anos de experiência</p>
                 </div>
 
