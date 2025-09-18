@@ -33,7 +33,7 @@ export function Header(){
                     <ul className={styles.navList}>
                         <li><Link href={'/'}>Home</Link></li>
                         <li><Link href={'#about'}>Sobre Nós</Link></li>
-                        <li><Link href={''}>Advogados</Link></li>
+                        <li><Link href={'#lawyers'}>Advogados</Link></li>
                         <li><Link href={'#clients'}>Clientes</Link></li>
                         <li><Link href={'#contact'}>Contato</Link></li>
                     </ul>

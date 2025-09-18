@@ -89,7 +89,7 @@ export default function Home() {
 
 
 
-        <section className={styles.lawyersSection} id="lawyer"> 
+        <section className={styles.lawyersSection} id="lawyers"> 
           <div className={styles.lawyersContent}> 
             <div className={styles.lawyerTextContainer}> 
               <div>
