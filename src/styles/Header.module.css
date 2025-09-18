@@ -1,0 +1,154 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 50;
+    background: #000;
+    padding: 0 30px;
+    border-radius: 0 0 25px 25px;
+}
+
+
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+}
+
+.navList a{
+    color: #fff;
+    font-size: 13px;
+}
+
+.navSocials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 30px;
+}
+
+.navSocials a{
+    transition: transform 0.3s;
+}
+
+.navSocials a:hover{
+    transform: scale(1.1);
+}
+
+.menuButton{
+    display: none;
+}
+
+
+.headerMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    background-color: #000;
+    gap: 80px;
+}
+
+.mobileList{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 50px;
+}
+
+.mobileList a{
+    color: #fff;
+    font-size: 17px;
+}
+
+.mobileButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navSocialsMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.showMenu{
+    transform: translateX(0);
+}
+
+
+.line1{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.line2{
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.line3{
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.open1{
+    transform: rotate(45deg) translate(0px, 5px);
+}
+
+.close{
+    display: none;
+}
+
+.open2{
+    transform: rotate(-46deg) translate(0px, -4px);
+    width: 25px;
+}
+
+
+
+@media(max-width: 1024px){
+    .navList, .navSocials{
+        display: none;
+    }
+
+    .headerMenu{
+        display: flex;
+    }
+
+    .menuButton{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        flex-direction: column;
+        gap: 3px;
+        z-index: 1000;
+    }
+}
+
+@media(max-width: 426px){
+    .navLogo{
+        width: 170px;
+    }
+}

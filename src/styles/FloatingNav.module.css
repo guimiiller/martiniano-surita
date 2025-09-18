@@ -1,0 +1,32 @@
+
+.floatingNav {
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  background: #000;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 9999;
+  padding: 20px 10px;
+}
+
+
+.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+@media (max-width: 1024px) {
+  .floatingNav {
+    display: none;
+  }
+}
