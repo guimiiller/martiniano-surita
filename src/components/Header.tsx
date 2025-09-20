@@ -55,15 +55,15 @@ export function Header(){
 
                 <div className={`${styles.headerMenu} ${menuOpen ? styles.showMenu : ''}`}>
                     <ul className={styles.mobileList}>
-                        <li><Link href={''}>Home</Link></li>
-                        <li><Link href={''}>Sobre Nós</Link></li>
-                        <li><Link href={''}>Advogados</Link></li>
-                        <li><Link href={''}>Clientes</Link></li>
-                        <li><Link href={''}>Contato</Link></li>
+                        <li><Link href={'/'}>Home</Link></li>
+                        <li><Link href={'#about'}>Sobre Nós</Link></li>
+                        <li><Link href={'#lawyers'}>Advogados</Link></li>
+                        <li><Link href={'#clients'}>Clientes</Link></li>
+                        <li><Link href={'#contact'}>Contato</Link></li>
                     </ul>
                     <div className={styles.navSocialsMobile}>
-                        <Link prefetch href={''}><Image src={'./instagramIcon.svg'} alt="Instagram Icon" width={20} height={20}/></Link>
-                        <Link prefetch href={''}><Image src={'./facebookIcon.svg'} alt="Facebook Icon" width={20} height={20}/></Link>
+                        <Link prefetch target="blank" href={'https://www.instagram.com/martinianosuritaadvogados/'}><Image src={'./instagramIcon.svg'} alt="Instagram Icon" width={20} height={20}/></Link>
+                        <Link prefetch target="blank" href={'https://www.facebook.com/martiniano.surita'}><Image src={'./facebookIcon.svg'} alt="Facebook Icon" width={20} height={20}/></Link>
                     </div>
                 </div>
             </header>
