@@ -76,7 +76,7 @@ export default function Home() {
                   eficiência e compromisso com a excelência.
                 </p>
               </div>
-              <Link href={"https://api.whatsapp.com/send?phone=+551144622735&text=Olá,%20quero%20falar%20com%20um%20Advogado.%20"}>
+              <Link target="_blank" href={"https://api.whatsapp.com/send?phone=+551144622735&text=Olá,%20quero%20falar%20com%20um%20Advogado.%20"}>
                 FALE COM UM ADVOGADO AGORA
                 <Image src={"./buttonIcon.svg"} alt="" width={20} height={20} />
               </Link>

@@ -29,16 +29,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Martiniano, Surita & Advogados" }],
   creator: "Martiniano, Surita & Advogados",
   publisher: "Martiniano, Surita & Advogados",
-  metadataBase: new URL("https://martiniano-surita.vercel.app"),
+  metadataBase: new URL("https://www.martinianosuritaeadvogados.com.br"),
   openGraph: {
     title: "Martiniano, Surita & Advogados | Advocacia em Santo André - SP",
     description:
       "Escritório de advocacia especializado em Direito Civil, Empresarial, Trabalhista, Família e Tributário. Atendimento em Santo André e região.",
-    url: "https://martiniano-surita.vercel.app",
+    url: "https://www.martinianosuritaeadvogados.com.br",
     siteName: "Martiniano, Surita & Advogados",
     images: [
       {
-        url: "https://martiniano-surita.vercel.app/og-image.jpg", 
+        url: "https://www.martinianosuritaeadvogados.com.br/logotag.png",
         width: 1200,
         height: 630,
         alt: "Martiniano, Surita & Advogados",
@@ -52,12 +52,13 @@ export const metadata: Metadata = {
     title: "Martiniano, Surita & Advogados",
     description:
       "Assessoria jurídica especializada em Santo André - SP. Direito Civil, Empresarial, Trabalhista, Família e Tributário.",
-    images: ["https://martiniano-surita.vercel.app/og-image.jpg"],
+    images: ["https://www.martinianosuritaeadvogados.com.br/logotag.png"],
   },
   alternates: {
-    canonical: "https://martiniano-surita.vercel.app",
+    canonical: "https://www.martinianosuritaeadvogados.com.br",
   },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
