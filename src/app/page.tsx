@@ -12,6 +12,7 @@ import { Footer } from "@/components/Footer";
 import { Articles } from "@/components/Articles";
 import { Whats } from "@/components/Whats";
 import CtaText from "@/components/CtaText";
+import { Faq } from "@/components/Faq";
 
 export default function Home() {
  
@@ -129,6 +130,7 @@ export default function Home() {
         <Clients />
         <Count />
         <Articles />
+        <Faq />
         <Contact />
         <Footer />
         <Whats />
